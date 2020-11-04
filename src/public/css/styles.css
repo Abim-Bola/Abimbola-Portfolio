@@ -108,4 +108,20 @@ textarea[type=text]{
   color: white;
 }
 
+.menu{
+  display: inline;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+}
+
+ul{
+  text-align: left;
+  padding-top: 15px;
+}
+
+.menu-link{
+  text-decoration: none;
+  color: white;
+}
 
