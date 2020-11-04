@@ -78,10 +78,11 @@ left: 100px;
 }
 
 
-.card 
-{
-  display:inline-block;
-} 
+.card-link{
+  text-decoration: none; 
+  color: black;
+   font-size: 30px;
+}
 
 
 
