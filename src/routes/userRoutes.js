@@ -6,9 +6,11 @@ const userRouter = express.Router();
 
 
 
-userRouter.post("/contact", userController.Contact);
+userRouter.post("/contact", userController.userContact);
+userRouter.get("/contact", userController.Contact);
 userRouter.get("/about", userController.About);
 userRouter.get("/resume", userController.Resume);
+userRouter.get("/projects", userController.Projects);
 
 
 

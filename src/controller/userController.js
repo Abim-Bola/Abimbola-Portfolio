@@ -8,7 +8,7 @@ const GmailPass = require('../config/key').GmailPass;
 
  const userController = {
 
-Contact(req, res) {
+userContact(req, res) {
     const {name, email, message, subject} = req.body;
 
     const transporter = nodemailer.createTransport({
@@ -47,6 +47,14 @@ About(req, res){
 
 Resume(req, res){
     res.render("resume");
+ },
+
+ Contact(req, res){
+    res.render("contact");
+ },
+
+ Projects(req, res){
+    res.render("projects");
  }
  };
 
