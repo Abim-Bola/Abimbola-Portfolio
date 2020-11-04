@@ -4,6 +4,7 @@ const express = require("express");
 const ejs = require("ejs");
 const expressLayout = require("express-ejs-layouts");
 const mongoose = require("mongoose");
+const userRouter = require('./src/routes/userRoutes');
 
 
 
@@ -37,8 +38,8 @@ app.get("/", function(req, res){
     });
 
 
-    // app.use("/admin", adminRouter);
-    // app.use("/user", userRouter);
+   
+    app.use("/abimbola", userRouter);
 
 
 const PORT = process.env.PORT || 3000;

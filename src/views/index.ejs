@@ -1,10 +1,8 @@
-<div class="container-fluid" style="margin-top: 2px;">
+<div class="container-fluid " style="margin-top: 2px;">
     <img src="images/pic2.jpg" width="200px" height="200px" style=" border-radius: 50%"> 
-   
     <h1 class="mt-3">Hello!</h1>
-   
     <p style="font-weight: 600; font-size: 30px;">I'm  <span style="color: #ec524b;">Abimbola Bamgbelu.</span> <br> I'm a backend and aspiring fullstack developer</p>
-    <a href="/contact"><button type="button" class="btn" style="background-color: white; font-size: 20px; padding: 10px">Hire Me</button></a>
+    <a href="/contact"><button type="button" class="btn mb-5" style="background-color: white; font-size: 20px; padding: 10px">Hire Me</button></a>
   </div>
 
   <i class="far fa-circle first-circle" style="font-size: 20px;"></i>
@@ -17,16 +15,16 @@
 
 
     <!-- section for about me -->
-<div class="container mt-5" style="background-color: #707070;  color: white;padding-left: 10%; padding-right: 10%; border-radius: 10px;">
+<div class="container mt-5 about" style="background-color: #707070;  color: white;padding-left: 10%; padding-right: 10%; border-radius: 10px;">
     <div class="mb-5" style="padding-left: 2%; padding-right: 2%;  padding-top: 7%; padding-bottom: 5%; font-size: 20px;">
       <h1 class="mt-10">About Me</h1>
-      <p class="mt-5 ">Since November 2019 I have spent time learning things I never knew existed and then using the
+      <p class="mt-4 ">Since November 2019 I have spent time learning things I never knew existed and then using the
          knowledge to build applications I  never imagined I could. I love writing code, and I 
-         especially love writing code for the backend of software applications. Lately, 
+         especially love writing code for the backend of software applications.  <br><br> Lately, 
          I have found my self itching to learn to write code for the frontend and then become 
          a fullstack developer. I come from a background in communications, and that makes me a 
-         software developer who can effectively collaborate and develop better user focused programs. 
-         Some of the exciting projects I have worked on include, a blog app that allows users write and
+         software developer who can effectively collaborate and develop better user focused programs.<br> 
+         <br>Some of the exciting projects I have worked on include, a blog app that allows users write and
           manage their posts, an api that send  details of literature in Africa, a personal twitter bot
            that posts tweets relating to the endsars movement in Nigeria, and shopping app for caps and
             ofcourse this portfolio! One thing about me is I will learn!</p>
@@ -120,10 +118,11 @@
 </div>
   
   
-<form class="text-center p-5" " action="#!">
-  <input  type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="NAME">
-  <input   type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="EMAIL">
-  <textarea  type="text" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="MESSAGE" rows="4" cols="50"></textarea>
+<form class="text-center p-5"  action="/abimbola/contact" method="post">
+  <input  type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="NAME" name="name">
+  <input   type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="EMAIL" name="email">
+  <input   type="text" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="SUBJECT" name="subject">
+  <textarea  type="text" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="MESSAGE" rows="4" cols="50" name="message"></textarea>
   <button class="btn  btn-block" style="background-color: white; font-weight: 600;" type="submit">SEND MESSAGE</button>
 </form>  
  </div>
